@@ -55,6 +55,12 @@ architecture to validate.
 This is a planning estimate only. Real inference performance depends on the
 model architecture, serving framework, prompt/context length, batching, KV cache,
 kernels, and quantization implementation.
+### 70B High-Availability Example
+
+The following scenario uses a 70B parameter model with FP16/BF16 precision,
+24 GiB of GPU memory per device, 25 concurrent users, and high availability enabled.
+
+![70B multi-GPU high-availability deployment](Screenshots/70b-multigpu-ha-deployment.png)
 
 ## Quick Start
 
