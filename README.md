@@ -85,7 +85,7 @@ streamlit run app.py
 Run tests:
 
 ```bash
-pytest
+pytest -m pytest
 ```
 
 ## Docker
